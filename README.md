@@ -23,3 +23,32 @@ This implementation requires the Tensorflow-GPU2.5 version. To avoid package con
 
 >  conda env create -f environment.yml
 
+## How to use this code:
+
+This code can be used to train a denoising model from scratch or to fine-tune a pretrained model. After the installation of the Python environment from the yml file, the next step is to set the input parameters in the JSON parameter file (i.e., ParameterFile.json). Most of the input parameters are self-explanatory but below we will discuss some of the important input parameters from the JSON file:
+
+- TrainNetworkfromScratch : This input parameter will train the model from scratch if set to True, otherwise, for fine-tuning, it should be False.
+- ActivateTrainandTestModel : This parameter will be set to False if you want to use this code for evaluation of pretrained model.
+- PretrainedmodelPath : 'Path of pretrained model', this parameter is mandatory in case of fine-tuning or evaluation of a pretrained model.
+- FineTuneStartingpoint, FineTuneEndingpoint : These two input parameters are essential in the case of the fine-tuning process. All the layers between   the starting and ending points will be frozen during the fine-tuning of the pretrained model.
+
+After the assignment of the input parameters. You can run the following script from the command line to start training the model:
+
+> python MainModule.py 'ParameterFile.json'
+
+## Note on evaluation:
+
+This code is capable to perform all the necessary steps during and after the training process. It will automatically evaluate the trained model and create a result directory to write all the results. Similarly, it will also create a model directory and save the trained model along with the best
+checkpoints in the model directory.
+
+## Important Note:
+
+This code will work with at least one GPU.
+
+## Reference:
+
+Please cite our paper in case you use this code for any scientific publication. The citation index will be uploaded soon!
+
+
+
+
