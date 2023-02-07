@@ -15,3 +15,11 @@ more advantageous than the conventional training of CNN-based denoising methods 
 computational overhead.
 
 The SIM microscopy datasets which were used during this work can be downloaded through this link: [Link will be uploaded soon]  
+
+
+## Installation:
+
+This implementation requires the Tensorflow-GPU2.5 version. To avoid package conflicts, we recommend you to create a new environment by using our provided environment.yml file. To create a new environment please run the following script:
+
+>  conda env create -f environment.yml
+
