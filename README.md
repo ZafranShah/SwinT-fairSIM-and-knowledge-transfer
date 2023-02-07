@@ -1,8 +1,5 @@
-# Evaluation of knowledge transfer for the denoising
-of super-resolution structured illumination
-microscopy data
-Evaluation of knowledge transfer for the denoising of super-
-resolution structured illumination microscopy data
+# Evaluation of knowledge transfer for the denoising of super-resolution structured illumination microscopy data
+
 In recent years, convolutional neural network (CNN) based methods have shown remarkable
 performance in the denoising and reconstruction of super-resolved structured illumination
 microscopy (SR-SIM) data. The potential for the generalization of these deep-learning models to
