@@ -47,7 +47,7 @@ This code will work with at least one GPU.
 
 ## Reference:
 
-Please cite our paper in case you use this code for any scientific publication. The citation index will be uploaded soon!
+Please cite our paper in case you use this code for any scientific publication. We will soon upload the citation index!
 
 
 
