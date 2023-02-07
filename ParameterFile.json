@@ -1,0 +1,16 @@
+{
+	"ImageDirectory": "/home/shah_za/Data_set/Tubulin-data",
+	"imageSize": 1024,
+	"imageChannel": 1,
+	"TypeofLossFunction": "mse", 
+	"ModelName": "UNetwork",
+	"NumberofGPUs": 2,
+	"Epochs":10,
+	"TrainNetworkfromScratch": true, 
+	"ActivateTrainandTestModule": true,
+	"PretrainedmodelPath":"",
+ 	"FineTuneStartingpoint":0,
+	"FineTuneEndingpoint":0
+	
+
+}
