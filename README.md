@@ -36,10 +36,9 @@ After the assignment of the input parameters. You can run the following script f
 
 > python MainModule.py 'ParameterFile.json'
 
-## Note on evaluation and reproducibility:
+## Reproducibility and evaluation:
 
-This code is capable to perform all the necessary steps during and after the training process. It will automatically evaluate the trained model and create a result directory to write all the results. Similarly, it will also create a model directory and save the trained model along with the best
-checkpoints in the model directory. Similarly. to reproduce the results of the paper all the pretrained models are available in the pretrained model directory.  
+To reproduce the results of the paper all the pretrained models are available in the model directory. This code is capable to perform all the necessary steps for the training and test phases. It will automatically evaluate the model and generate a result directory to write all the results. Similarly, during the training process, It will also create a model directory and save the trained model along with the best checkpoints in the model directory.   
 
 ## Important Note:
 
