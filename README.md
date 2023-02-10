@@ -25,7 +25,7 @@ After the assignment of the input parameters. You can run the following script f
 
 ## Reproducibility and evaluation:
 
-To reproduce the results of the paper all the pretrained models are available in the model directory. This code is capable of performing all the necessary steps for the training and test phases. It will automatically evaluate the model and generate a result directory to write all the results. Similarly, during the training process, It will also create a model directory and save the trained model along with the best checkpoints in the model directory.   
+To reproduce the results of the paper all the pretrained models are available in the models directory at zenodo text [(https://zenodo.org/deposit/7626173)]. This code is capable of performing all the necessary steps for the training and test phases. It will automatically evaluate the model and generate a result directory to write all the results. Similarly, during the training process, It will also create a model directory and save the trained model along with the best checkpoints in the model directory.   
 
 ## Important Note:
 
