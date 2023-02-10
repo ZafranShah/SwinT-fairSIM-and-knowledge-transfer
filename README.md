@@ -15,7 +15,7 @@ This implementation requires the Tensorflow-GPU2.5 version. To avoid package con
 This code can be used to train a denoising model from scratch or to fine-tune a pretrained model. After the installation of the Python environment from the yml file, the next step is to set the input parameters in the JSON parameter file (i.e., ParameterFile.json). Most of the input parameters are self-explanatory but below we will discuss some of the important input parameters from the JSON file:
 
 - TrainNetworkfromScratch: This input parameter will train the model from scratch If set to True, otherwise, for fine-tuning, It should be False.
-- ActivateTrainandTestModel: This parameter will be set to False If you want to use this code for evaluation of the pretrained model or the reproducibility of the results.
+- ActivateTrainandTestModel: This parameter will be set to False If you want to use this code for evaluation of the trained model or the reproducibility of the results by using pretrained models.
 - PretrainedmodelPath: This parameter is mandatory in case of fine-tuning or evaluation of a pretrained model.
 - FineTuneStartingpoint and FineTuneEndingpoint: These two input parameters are essential in the fine-tuning of a pretrained model. All the layers between the starting and ending points will be frozen during the fine-tuning of the pretrained model.
 
@@ -25,7 +25,7 @@ After the assignment of the input parameters. You can run the following script f
 
 ## Reproducibility and evaluation:
 
-To reproduce the results of the paper all the pretrained models are available in the models directory at [zenodo](https://zenodo.org/deposit/7626173). This code is capable of performing all the necessary steps for the training and test phases. It will automatically evaluate the model and generate a result directory to write all the results. Similarly, during the training process, It will also create a model directory and save the trained model along with the best checkpoints in the model directory.   
+To reproduce the results of the paper all the trained models used in this work are available in the 'Models' directory at [zenodo](https://zenodo.org/deposit/7626173). This code is capable of performing all the necessary steps for the training and test phases. It will automatically evaluate the model and generate a result directory to write all the results. Similarly, during the training process, It will also create a model directory and save the trained model along with the best checkpoints in the model directory.   
 
 ## Important Note:
 
