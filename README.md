@@ -34,8 +34,7 @@ This code will work with at least one GPU.
 
 ## Reference:
 
-Please cite our paper in case you use this code for any scientific publication. We will soon upload the citation index!
-
+Zafran Hussain Shah, Marcel Müller, Wolfgang Hübner, Tung-Cheng Wang, Daniel Telman, Thomas Huser, Wolfram Schenck, Evaluation of Swin Transformer and knowledge transfer for denoising of super-resolution structured illumination microscopy data, GigaScience, Volume 13, 2024, giad109, https://doi.org/10.1093/gigascience/giad109
 
 
 
